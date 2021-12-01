@@ -28,7 +28,8 @@ function Fill({contactDetails}) {
                     </label>
                     <div>
                     <input type="text" name="name" placeholder="Enter you name" value={name} onChange={(e)=> setName(e.target.value)}/>
-                    
+                    {/* value should be something that you have defined in the useState earlier so that target.value would be avaialble */}
+
                     </div>    
                 </div>
                 <div className="contactNo">
@@ -37,6 +38,7 @@ function Fill({contactDetails}) {
                     </label>
                     <div>
                     <input type="text" name="email" placeholder="Enter you contact number" value={email} onChange={(e)=> setEmail(e.target.value)}/>
+                    {/* e in onClick is the synthetic event that providesconsistency by normalizing events so that they have the same properties across different browsers and platforms. */}  
                     </div>    
                 </div>
                 <button className="btn-add">Add</button>
