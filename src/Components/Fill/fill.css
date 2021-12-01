@@ -1,0 +1,30 @@
+.addForm{
+    margin-left: 20px;
+    
+}
+
+
+.fill-main h2{
+    margin-left: 20px;
+}
+.contactNo{
+    margin-top: 15px;
+}
+input{
+    width: 200px;
+    border-color: #99A799;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+}
+
+button{
+    margin-top: 20px;
+    width: 70px;
+    background-color: none;
+    border-style: solid;
+    border-color: #99A799;
+    color: #99A799;
+    padding: 10px;
+    border-radius: 5px;
+}
