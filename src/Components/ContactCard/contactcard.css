@@ -1,0 +1,21 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-1{
+    display: flex;
+    justify-content: auto auto;
+}
+
+.avatar{
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+
+
+.contactName{
+    margin-left: 50px;
+}

@@ -17,3 +17,8 @@ li{
     list-style: none;
     padding-left: 20px;
 }
+
+.links{
+    color: white;
+    text-decoration: none;
+}
